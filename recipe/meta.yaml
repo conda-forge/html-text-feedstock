@@ -1,5 +1,5 @@
 {% set name = "html-text" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/html_text-{{ version }}.tar.gz
-  sha256: 3dcb7006945d8ff06b4be639678f633a06ea70bc494163d256066995e1eb9182
+  sha256: 87fd194310a9f54be32c7b18a70180dfa72a6b4d01cca35ac813c4d2b2b2ed8b
 
 build:
   noarch: python
